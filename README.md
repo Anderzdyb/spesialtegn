@@ -24,6 +24,7 @@ Angi katalog og kjør:
 - Kjør endre_filer_i_katalog(katalog) for å endre filnavnene.
 
 
+
 Alterntativ for Windows Powershell
 
 Angi katalog: Definerer variabelen $katalog til den aktuelle katalogen.
