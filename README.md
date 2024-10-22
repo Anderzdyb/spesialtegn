@@ -25,8 +25,13 @@ Angi katalog og kjør:
 
   Alterntativ for Windows Powershell
 Angi katalog: Definerer variabelen $katalog til den aktuelle katalogen.
+
 Hent filer: Get-ChildItem henter alle filer i katalogen, inkludert underkataloger, ved bruk av -Recurse.
+
 Sløyfe gjennom filer: ForEach-Object går gjennom hver fil.
+
 Bytt ut tegn: $_.Name -replace "¾", "æ" -replace "¿", "æ" -replace "Œ", "å" bruker -replace for å bytte ut spesialtegnene.
+
 Sett sammen ny filbane: Join-Path $katalog.Parent $nyttNavn setter sammen den nye filbanen ved å bruke den oppdaterte filnavnet og den opprinnelige katalogen.
+
 Endre filnavn: Rename-Item endrer filnavnet til det nye filnavnet.
