@@ -12,7 +12,7 @@ endre_filnavn(filnavn)-funksjonen:
 - Returnerer det oppdaterte filnavnet.
 
 endre_filer_i_katalog(katalog)-funksjonen:
- -Tar en katalogbane som input.
+- Tar en katalogbane som input.
 - Bruker os.walk() for å gå gjennom alle underkataloger i den angitte katalogen.
 - For hver fil:
 -- Finner det gamle filnavnet.
