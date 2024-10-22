@@ -1,0 +1,2 @@
+# spesialtegn
+søk/bytt spesialtegn
